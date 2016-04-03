@@ -42,7 +42,7 @@ A pre-compiled binary of OpenCV for the Raspberry Pi.   It is available in a ".d
   wget https://raw.githubusercontent.com/jabelone/OpenCV-for-Pi/master/latest-OpenCV.deb"
   sudo dpkg -i latest-OpenCV.deb
   ```
-x) Test it installed correctly by doing the following:
+8) Test it installed correctly by doing the following:
   Open a python shell
   ```
   python
@@ -52,4 +52,4 @@ x) Test it installed correctly by doing the following:
   import cv2
   cv2.__version__
   ```
-  4) Have fun with OpenCV!
+ 9) Have fun with OpenCV and open an issue on GitHub if you find any bugs or have problems.

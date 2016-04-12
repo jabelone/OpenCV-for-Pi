@@ -53,4 +53,7 @@ python
 import cv2
 cv2.__version__
   ```
+  If you get an error about ```imutils``` install it with:
+  ```pip install imutils```
+  
  9) Have fun with OpenCV and open an issue on GitHub if you find any bugs or have problems.

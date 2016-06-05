@@ -1,5 +1,5 @@
 # OpenCV for Pi
-A pre-compiled binary of OpenCV for the Raspberry Pi.   It is available in a ".deb" package and will save you countless hours not having to compile it yourself.  This may or may not stay updated as I have to manually compile each version.  I will try to make available most major versions.  This was compiled on a Raspberry Pi 2 Model B+ running raspbian jessie.
+A pre-compiled binary of OpenCV for the Raspberry Pi.   It is available in a ".deb" package and will save you countless hours not having to compile it yourself.  This may or may not stay updated as I have to manually compile each version.  I will try to make available most major versions.  This was compiled on a Raspberry Pi 3 Model B+ running raspbian jessie.  This version was built with TBB which enables automagic multithreading in many OpenCV algorithms.
 
 # Instructions
 0) Always good practice to update everything before you install stuff:
@@ -39,8 +39,7 @@ pip install numpy
   ```
 7) Download and install the file from this repo called "latest-OpenCV.deb".
   ```
-wget "https://github.com/jabelone/OpenCV-for-Pi/blob/master/latest-OpenCV.deb?raw=true"
-cp latest-OpenCV.deb\?raw\=true latest-OpenCV.deb
+wget "https://github.com/jabelone/OpenCV-for-Pi/raw/master/latest-OpenCV.deb"
 sudo dpkg -i latest-OpenCV.deb
   ```
 8) Test it installed correctly by doing the following:
@@ -53,7 +52,5 @@ python
 import cv2
 cv2.__version__
   ```
-  If you get an error about ```imutils``` install it with:
-  ```pip install imutils```
   
  9) Have fun with OpenCV and open an issue on GitHub if you find any bugs or have problems.

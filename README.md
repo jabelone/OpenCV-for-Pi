@@ -53,4 +53,4 @@ import cv2
 cv2.__version__
   ```
   
- 9) Have fun with OpenCV and open an issue on GitHub if you find any bugs or have problems.
+ 9) Have fun with OpenCV and open an issue on GitHub if you have any problems or I forget to update it.  [pyimagesearch](http://www.pyimagesearch.com/) is a great resource to get started!

@@ -35,7 +35,7 @@ sudo python get-pip.py
   ```
 6) Now we can install NumPy - a python library for maths stuff - needed for maths stuff.
   ```
-pip install numpy
+sudo pip install numpy
   ```
 7) Download and install the file from this repo called "latest-OpenCV.deb".
   ```

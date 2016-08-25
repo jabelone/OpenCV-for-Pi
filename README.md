@@ -10,7 +10,7 @@ sudo rpi-update
   ```
 1) We need to install some packages that allow OpenCV to process images:
   ```
-sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev
+sudo apt-get install libtiff5-dev libjasper-dev libpng12-dev
   ```
   If you get an error about libjpeg-dev try installing this first:
   ```

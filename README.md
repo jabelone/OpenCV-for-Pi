@@ -6,7 +6,6 @@ A pre-compiled binary of OpenCV for the Raspberry Pi.   It is available in a ".d
   ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo rpi-update
   ```
 1) We need to install some packages that allow OpenCV to process images:
   ```

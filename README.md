@@ -1,6 +1,12 @@
 # OpenCV for Pi
 A pre-compiled binary of OpenCV for the Raspberry Pi.   It is available in a ".deb" package and will save you countless hours not having to compile it yourself.  This may or may not stay updated as I have to manually compile each version.  I will try to make available most major versions.  This was compiled on a Raspberry Pi 3 Model B+ running raspbian jessie.  This version was built with TBB which enables automagic multithreading in many OpenCV algorithms.
 
+# Super Lazy Version
+```
+curl -sSf https://github.com/jabelone/OpenCV-for-Pi/raw/master/lazy_install.sh | sh
+```
+Remember to check the script before piping it into your bash! ¯\\_(ツ)_/¯
+
 # Instructions
 0) Always good practice to update everything before you install stuff:
   ```
